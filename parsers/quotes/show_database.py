@@ -1,6 +1,6 @@
 import sqlite3 # импорт библиотеки
 
-conn = sqlite3.connect('quotes.db') # подключение к базе данных
+conn = sqlite3.connect('get_data/quotes.db') # подключение к базе данных
 cursor = conn.cursor() # создание курсора
 
 cursor.execute('SELECT * FROM quotes') # получение всех строк из таблицы
