@@ -1,6 +1,6 @@
 ### Импорт библиотеки и функции
 import sqlite3 as sq
-from parser_quotes import get_quotes
+from quotes.parser_quotes import get_quotes
 
 ### Подключение к базе данных
 with sq.connect("quotes.db") as data:
